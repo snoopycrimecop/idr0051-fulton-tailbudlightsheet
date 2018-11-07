@@ -1,0 +1,99 @@
+# FILL IN AS MUCH INFORMATION AS YOU CAN.  HINTS HAVE BEEN PUT IN SOME FIELDS AFTER THE HASH # SYMBOL. REPLACE THE HINT WITH TEXT WHERE APPROPRIATE.				
+				
+# STUDY DESCRIPTION SECTION				
+"# Section with generic information about the study including title, description, publication details (if applicable) and contact details"				
+				
+Comment[IDR Study Accession]	idr0051			
+Study Title	In Toto Cell Tracking using Lightsheet Microscopy of the Neuromesodermal Progenitor Zone of the Zebrafish Tailbud from the 21st Somite Stage			
+Study Type	# leave blank			
+Study Type Term Source REF	# leave blank			
+Study Type Term Accession	# leave blank			
+Study Description	"Lightsheet microscopy has been previously used to image and directly study the process of gastrulation in a zebrafish embryo (cannot reference in an abstract?). Before now it was not possible to use this method to study late-stage somatogenesis, due to the movement of the embryo, resulting in displacement from the field of view. Here we achieve 4D lightsheet imaging with online, image based registration to maintain the field of view during long timelapses, with emphasis on the tailbud. The zebrafish tailbud is of special interest as it contains a population of bipotent progenitor cells, neuromesodermal progenitors (NMps), competent to enter either the mesodermal or neural lineages. This dataset provides in toto tracking of the tailbud of the developing zebrafish whilst also demonstrating the potential of online tracking during developing to maintain high magnification images whilst tracking a growing object."		 	
+Study Organism	Danio rerio			
+Study Organism Term Source REF	NCBITaxon 7955			
+Study Organism Term Accession	# leave blank			
+Study Experiments Number	3			
+Study External URL	# if there is an existing web page related to the study enter it here			
+Study Public Release Date	22/10/2018			
+				
+# Study Publication				
+Study PubMed ID	# fill in if known			
+Study Publication Title	Neuromesodermal Progenitors are a Conserved Source of Spinal Cord with Divergent Growth Dynamics			
+Study Author List	"Andrea Attardi, Timothy Fulton, Maria Florescu, Gopi Shah, Leila Muresan, Martin O. Lenz, Courtney Lancaster, Jan Huisken, Alexander van Oudenaarden and Benjamin Steventon"			
+Study PMC ID	# fill in if known			
+Study DOI	https://doi.org/10.1242/dev.166728			
+				
+# Study Contacts				
+Study Person Last Name	Steventon			
+Study Person First Name	Benjamin			
+Study Person Email	bjs57@cam.ac.uk			
+Study Person Address	Department of Genetics University of Cambridge			
+Study Person ORCID	https://orcid.org/0000-0001-7838-839X			
+Study Person Roles	submitter			
+				
+# Study License and Data DOI				
+Study License	CC-BY 4.0			
+Study License URL	https://creativecommons.org/licenses/by/4.0/			
+Study Copyright	Steventon et al.			
+Study Data Publisher	University of Dundee			
+Study Data DOI	# leave blank			
+				
+Term Source Name	NCBITaxon	EFO	CMPO	FBbi
+Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/
+				
+				
+# EXPERIMENT SECTION				
+"# Experiment Section containing all information relative to each experiment in the study including materials used, protocols names and description, phenotype names and description. For multiple experiments this section should be repeated.  Copy and paste the whole section below and fill out for the next experiment"				
+				
+Experiment Number	1			
+Comment[IDR Experiment Name]	# leave blank			
+Experiment Description	Lightsheet imaging of tailbud from 18 somite stage with one frame per 2 minutes			
+Experiment Size	5D Images: 	XYZ 1x1x1 1channel 120seconds/frame	Total Tb: 	0.5
+Experiment Example Images	180712_H2B_22ss_Courtney1_20180712-163837_p00_c00_t0000.ome.tiff			
+Experiment Imaging Method	SPIM			
+Experiment Imaging Method Term Source REF	Fbbi			
+Experiment Imaging Method Term Accession	# look up in http://www.ebi.ac.uk/ols/ontologies/fbbi or leave blank			
+Experiment Comments	Detailed annotation of the mounting and imaging technique used in production of this dataset is avalible from Development (doi: 10.1242/dev.166728) and Wellcome Trust Open Research (DOIXXXXXXXXXXXX)			
+				
+# assay files				
+Experiment Assay File	# put in the name of the assay file			
+Experiment Assay File Format	tab-delimited text			
+Assay Experimental Conditions	28 Degrees ambiant CO2 E3 Media 			
+Assay Experimental Conditions Term Source REF	# leave blank			
+Assay Experimental Conditions Term Accession	# leave blank			
+Quality Control Description	Manual validation of a selection of tracks undertaken described in Development doi: 10.1242/dev.166728			
+				
+# Protocols				
+Protocol Name	growth protocol	treatment protocol	image aquistion and feature extraction protocol	data analysis protocol
+Protocol Type	growth protocol	treatment protocol	image aquistion and feature extraction protocol	data analysis protocol
+Protocol Type Term Source REF	EFO	EFO		
+Protocol Type Term Accession	EFO_0003789	EFO_0003969		
+Protocol Description	# text about how the cells were grown here	# text about any specific treatment to the cells here	Detailed annotation of the mounting and imaging technique used in production of this dataset is avalible from Development (doi: 10.1242/dev.166728) and Wellcome Trust Open Research (DOIXXXXXXXXXXXX)	TGMM Tracking on nuclei with manual validaition using FIJI plugin Mamut
+				
+# Phenotypes				
+Phenotype Name	# if any specific phenotypes were identified in the experiment enter the information here.  Each phenotype should be in a separate column.			
+Phenotype Description	"# give a brief description of each phenotype, or how it was determined e.g. if score X is greater than Y then this phenotype assigned."			
+Phenotype Score Type	"# choose from: manual, automatic"			
+Phenotype Term Source REF	CMPO			
+Phenotype Term Name	# if your phenotype matches a term in the Cellular Microscopy Phenotype Ontology enter it here http://www.ebi.ac.uk/CMPO			
+Phenotype Term Accession	# if your phenotype matches a term in the Cellular Microscopy Phenotype Ontology enter the accession for the term here http://www.ebi.ac.uk/CMPO		 	
+				
+				
+# Feature Level Data Files (give individual file details unless there is one file per well)				
+Feature Level Data File Name	# list any feature level table files here			
+Feature Level Data File Format	# a description of the table			
+Feature Level Data File Description	# tab-delimited text or other format			
+Feature Level Data Column Name	"# list all the columns in the table, each column in the table should be in a separate column here"			
+Feature Level Data Column Description	# describe the values in each column			
+				
+#  Processed Data Files 				
+Processed Data File Name	GMEMfinalResult_frame*.xml			
+Processed Data File Format	tab-delimited text			
+Processed Data File Description	Tracking data as .xml filetypes containging coodinates of each cell at each timepoint with one .xml per timepoint			
+Processed Data Column Name	"# list each of the columns in the processed data file here, each column in the table should be ain a separate column here"			
+Processed Data Column Type	"# state the type of value in each column. Choose from: location, reagent identifier, gene identifier, gene symbol, gene description, data, phenotype, experimental condition"			
+Processed Data Column Annotation Level	"# for data and phenotype columns enter the level of the annotation so that it is clear if the value is derived from data from a image, is averaged over many images. E.g. gene, experimental condition"			
+"experimental condition and gene, phenotype, image, protein"""				
+Processed Data Column Description	"# for each data and phenotype column, enter a brief description of what the value represents"			
+Processed Data Column Link To Assay File	"# enter which column can be used to link the information in the processed data file to the assay file e.g. targeted protein, or gene identifier"			
+
