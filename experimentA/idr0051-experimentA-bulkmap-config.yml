@@ -39,9 +39,6 @@ columns:
   - name: Channels
     clientname: Channels
     include: yes
-  - name: Image File Type
-    clientname: Image File Type
-    include: yes
 
   ######################################################################
   # mapr groups
