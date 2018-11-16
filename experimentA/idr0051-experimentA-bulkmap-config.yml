@@ -33,12 +33,6 @@ columns:
   - name: Characteristics [Developmental Stage]
     clientname: Developmental Stage
     include: yes
-  - name: Comment [Image File]
-    clientname: Comment
-    include: yes
-  - name: Channels
-    clientname: Channels
-    include: yes
 
   ######################################################################
   # mapr groups
