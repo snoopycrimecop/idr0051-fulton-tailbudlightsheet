@@ -3,6 +3,7 @@ continue: true
 transfer: "ln_s"
 exclude: "clientpath"
 skip: "all"
+parallel_upload: "10"
 output: "yaml"
 path: "idr0051-experimentA-filePaths.tsv"
 columns:
