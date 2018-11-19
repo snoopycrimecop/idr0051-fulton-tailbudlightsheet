@@ -8,19 +8,19 @@ Study Title	In Toto Cell Tracking using Lightsheet Microscopy of the Neuromesode
 Study Type	# leave blank			
 Study Type Term Source REF	# leave blank			
 Study Type Term Accession	# leave blank			
-Study Description	"Lightsheet microscopy has been previously used to image and directly study the process of gastrulation in a zebrafish embryo (cannot reference in an abstract?). Before now it was not possible to use this method to study late-stage somatogenesis, due to the movement of the embryo, resulting in displacement from the field of view. Here we achieve 4D lightsheet imaging with online, image based registration to maintain the field of view during long timelapses, with emphasis on the tailbud. The zebrafish tailbud is of special interest as it contains a population of bipotent progenitor cells, neuromesodermal progenitors (NMps), competent to enter either the mesodermal or neural lineages. This dataset provides in toto tracking of the tailbud of the developing zebrafish whilst also demonstrating the potential of online tracking during developing to maintain high magnification images whilst tracking a growing object."		 	
+Study Description	Lightsheet microscopy has been previously used to image and directly study the process of gastrulation in a zebrafish embryo. Before now it was not possible to use this method to study late-stage somatogenesis, due to the movement of the embryo, resulting in displacement from the field of view. Here we achieve 4D lightsheet imaging with online, image based registration to maintain the field of view during long timelapses, with emphasis on the tailbud. The zebrafish tailbud is of special interest as it contains a population of bipotent progenitor cells, neuromesodermal progenitors (NMps), competent to enter either the mesodermal or neural lineages. This dataset provides in toto tracking of the tailbud of the developing zebrafish whilst also demonstrating the potential of online tracking during developing to maintain high magnification images whilst tracking a growing object.		 	
 Study Organism	Danio rerio			
 Study Organism Term Source REF	NCBITaxon 7955			
 Study Organism Term Accession	# leave blank			
-Study Experiments Number	3			
+Study Experiments Number	1			
 Study External URL	# if there is an existing web page related to the study enter it here			
 Study Public Release Date	22/10/2018			
 				
 # Study Publication				
-Study PubMed ID	# fill in if known			
+Study PubMed ID				
 Study Publication Title	Neuromesodermal Progenitors are a Conserved Source of Spinal Cord with Divergent Growth Dynamics			
 Study Author List	"Andrea Attardi, Timothy Fulton, Maria Florescu, Gopi Shah, Leila Muresan, Martin O. Lenz, Courtney Lancaster, Jan Huisken, Alexander van Oudenaarden and Benjamin Steventon"			
-Study PMC ID	# fill in if known			
+Study PMC ID				
 Study DOI	https://doi.org/10.1242/dev.166728			
 				
 # Study Contacts				
@@ -36,24 +36,23 @@ Study License	CC-BY 4.0
 Study License URL	https://creativecommons.org/licenses/by/4.0/			
 Study Copyright	Steventon et al.			
 Study Data Publisher	University of Dundee			
-Study Data DOI	# leave blank			
+Study Data DOI				
 				
 Term Source Name	NCBITaxon	EFO	CMPO	FBbi
 Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/
 				
 				
-# EXPERIMENT SECTION				
-"# Experiment Section containing all information relative to each experiment in the study including materials used, protocols names and description, phenotype names and description. For multiple experiments this section should be repeated.  Copy and paste the whole section below and fill out for the next experiment"				
+# EXPERIMENT SECTION							
 				
 Experiment Number	1			
-Comment[IDR Experiment Name]	# leave blank			
+Comment[IDR Experiment Name]	idr0051-fulton-tailbudlightsheet/experimentA			
 Experiment Description	Lightsheet imaging of tailbud from 18 somite stage with one frame per 2 minutes			
 Experiment Size	5D Images: 	XYZ 1x1x1 1channel 120seconds/frame	Total Tb: 	0.5
 Experiment Example Images	180712_H2B_22ss_Courtney1_20180712-163837_p00_c00_t0000.ome.tiff			
 Experiment Imaging Method	SPIM			
 Experiment Imaging Method Term Source REF	Fbbi			
 Experiment Imaging Method Term Accession	# look up in http://www.ebi.ac.uk/ols/ontologies/fbbi or leave blank			
-Experiment Comments	Detailed annotation of the mounting and imaging technique used in production of this dataset is avalible from Development (doi: 10.1242/dev.166728) and Wellcome Trust Open Research (DOIXXXXXXXXXXXX)			
+Experiment Comments	Detailed annotation of the mounting and imaging technique used in production of this dataset is available from Development (doi: 10.1242/dev.166728) and Wellcome Trust Open Research (DOIXXXXXXXXXXXX)			
 				
 # assay files				
 Experiment Assay File	# put in the name of the assay file			
