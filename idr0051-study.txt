@@ -13,8 +13,8 @@ Study Organism	Danio rerio
 Study Organism Term Source REF	NCBITaxon			
 Study Organism Term Accession	NCBITaxon_7955			
 Study Experiments Number	1			
-Study External URL	# if there is an existing web page related to the study enter it here			
-Study Public Release Date	22/10/2018			
+Study External URL				
+Study Public Release Date	2018-11-29			
 				
 # Study Publication				
 Study PubMed ID	30333213			
