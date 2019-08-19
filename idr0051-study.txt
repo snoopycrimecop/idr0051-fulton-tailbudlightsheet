@@ -18,8 +18,8 @@ Study Public Release Date	2018-11-29
 				
 # Study Publication				
 Study PubMed ID	30333213			
-Study Publication Title	Neuromesodermal Progenitors are a Conserved Source of Spinal Cord with Divergent Growth Dynamics			
-Study Author List	Andrea Attardi, Timothy Fulton, Maria Florescu, Gopi Shah, Leila Muresan, Martin O. Lenz, Courtney Lancaster, Jan Huisken, Alexander van Oudenaarden and Benjamin Steventon			
+Study Publication Title	Neuromesodermal progenitors are a conserved source of spinal cord with divergent growth dynamics.			
+Study Author List	Attardi A, Fulton T, Florescu M, Shah G, Muresan L, Lenz MO, Lancaster C, Huisken J, van Oudenaarden A, Steventon B			
 Study PMC ID	PMC6240315			
 Study DOI	https://doi.org/10.1242/dev.166728			
 				
